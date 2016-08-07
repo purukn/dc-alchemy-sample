@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <title>Get Entities in a PDF document</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="stylesheets/style.css">
+  </head>
+
+  <body>
+    <form action="/entities" method="post" enctype="multipart/form-data">
+      Select PDF document to upload:
+      <input id="file" type="file" name="file" accept='application/pdf', title='Choose a PDF document to upload' />
+      <input type="submit" value="Upload Document" name="submit">
+    </form>
+
+  </body>
+
+</html>
