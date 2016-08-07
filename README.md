@@ -3,6 +3,11 @@
 This Node.js Application demonstrates how Custom entities can be identified in a PDF document. PDF documents when uploaded gets converted into sections using Watson Document Conversion service. Alchemy Language's getEntities API is then used using a Custom trained model to get entities present in the sections of the PDF document.
 
 [![Deploy to Bluemix](https://bluemix.net/deploy/button.png)](https://bluemix.net/deploy?repository=https://github.com/purukn/dc-alchemy-sample)
+**Note:** Please add new bindings for Document Conversion and Alchemy Language Services for the newly created application. Alternatively, you can mention access information of already existing Services as below in Environment Variables:
+API_KEY=<alchemy_language_api_key>
+MODEL_ID=<alchemy_language_custom_model_id>
+DC_USER_NAME=<document_conversion_user_name>
+DC_PASSWORD=<document_conversion_password>
 
 ## Run the app locally
 
